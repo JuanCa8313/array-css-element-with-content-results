@@ -1,6 +1,8 @@
 homepage: "https://www.omilac.com"
 documentation: "https://www.example.com/documentation"
 versions:
+  - sha: 5e3c38869bcee4ec97789035312f2d40153da2dd
+    changeNotes: Renamed Template.
   - sha: 6a8722e96ce5ed7258d51fe759f47cdafab408af
     changeNotes: File tpl organized.
   - sha: 235b93932e1357f877056c420fd2f38e3a1fe445
