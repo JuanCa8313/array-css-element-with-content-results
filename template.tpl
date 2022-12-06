@@ -80,7 +80,7 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 
 // Introduzca aquí su código de plantilla.
-const log = require('logToConsole');
+//const log = require('logToConsole');
 const getUrl = require('getUrl');
 //log('data =', data);
 //log('data array =', data.array);
