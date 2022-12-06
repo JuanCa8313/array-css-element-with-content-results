@@ -1,0 +1,5 @@
+homepage: "https://www.omilac.com"
+documentation: "https://www.example.com/documentation"
+versions:
+  - sha: efebd57542f9557b3c87404f268ec3b06c038639
+    changeNotes: Initial release.
