@@ -181,17 +181,17 @@ ___TESTS___
 scenarios:
 - name: Untitled test 1
   code: "const mockData = {\n  // Mocked field values\n  functionRegexValidator: (entry,comp)\
-    \ => {\n  \treturn entry.match(comp);\n  },\n  pagePath: '.*',\n  array:[\n  \
-    \  {\n      cssSelectors:\"section#modulo-productos a, section#modulo-productos\
-    \ a *\",\n       contentResults:\"valor 1\"\n    },\n    {\n      cssSelectors:\"\
-    #calle-salida-fija-imagen > div.cards-container > div > div > a, #calle-salida-fija-imagen\
-    \ > div.cards-container > div > div > a *\",\n       contentResults:\"valor 2\"\
-    \n    }\n  ]\n};\n\n// Call runCode to run the template's code.\nlet variableResult\
-    \ = runCode(mockData);\n\n// Verify that the variable returns a result.\nassertThat(variableResult).isNotEqualTo(undefined);"
+    \ => {\n  \treturn true;\n  },\n  pagePath: '.*',\n  array:[\n    {\n      cssSelectors:\"\
+    section#modulo-productos a, section#modulo-productos a *\",\n       contentResults:\"\
+    valor 1\"\n    },\n    {\n      cssSelectors:\"#calle-salida-fija-imagen > div.cards-container\
+    \ > div > div > a, #calle-salida-fija-imagen > div.cards-container > div > div\
+    \ > a *\",\n       contentResults:\"valor 2\"\n    }\n  ]\n};\n\n// Call runCode\
+    \ to run the template's code.\nlet variableResult = runCode(mockData);\n\n// Verify\
+    \ that the variable returns a result.\nassertThat(variableResult).isNotEqualTo(undefined);"
 
 
 ___NOTES___
 
-Created on 6/12/2022, 10:28:11
+Created on 6/12/2022, 12:37:30
 
 

@@ -1,5 +1,7 @@
 homepage: "https://www.omilac.com"
 documentation: "https://www.example.com/documentation"
 versions:
+  - sha: 6a8722e96ce5ed7258d51fe759f47cdafab408af
+    changeNotes: File tpl organized.
   - sha: 235b93932e1357f877056c420fd2f38e3a1fe445
     changeNotes: Initial release.
