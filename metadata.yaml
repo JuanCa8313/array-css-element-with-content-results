@@ -1,5 +1,9 @@
 homepage: "https://www.omilac.com"
 documentation: "https://www.example.com/documentation"
 versions:
+  - sha: 457d359d6b17ae01311a6f3ef28667140d7f2029
+    changeNotes: Version Eliminated 2.
+  - sha: ebcdcb6277f0f189e4f3f78312b2b3d1c581305a
+    changeNotes: Version Eliminated.
   - sha: 5e3c38869bcee4ec97789035312f2d40153da2dd
     changeNotes: Renamed Template.
